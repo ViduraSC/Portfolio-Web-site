@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" class="font-sans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidura's Data Scientist Portfolio</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lottie Player -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'], // Add Poppins as the default sans-serif font
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Header Section -->
+    <header class="fixed top-0 left-0 w-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white py-3 shadow-lg z-50">
+        <div class="container mx-auto flex justify-center items-center px-6">
+            <!-- Navigation Section -->
+            <nav>
+                <ul class="flex space-x-8 text-lg">
+                    <li>
+                        <a href="#about" class="relative group text-white hover:text-yellow-400 transition duration-300">
+                            About
+                            <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#experience" class="relative group text-white hover:text-yellow-400 transition duration-300">
+                            Experience
+                            <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#education" class="relative group text-white hover:text-yellow-400 transition duration-300">
+                            Education
+                            <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="relative group text-white hover:text-yellow-400 transition duration-300">
+                            Projects
+                            <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#certifications" class="relative group text-white hover:text-yellow-400 transition duration-300">
+                            Certifications
+                            <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 relative">
+        
+        <div class="container mx-auto px-4 text-center relative">
+            <div class="absolute inset-0 bg-gradient-to-r from-purple-300 via-pink-300 to-blue-300 opacity-30 rounded-full w-80 h-80 -z-10"></div>
+            <h2 class="text-4xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">About me</h2>
+            <img src="vidura.jpg" alt="Vidura's Photograph" class="w-80 h-80 rounded-full mx-auto shadow-lg transition-transform transform hover:scale-110" />
+            <p class="text-lg leading-relaxed mt-6 max-w-2xl mx-auto opacity-0 animate-fade-in">
+                Hi, I'm Vidura Chathuranga, a data scientist with expertise in Statistics, Data Science, Machine Learning, Generative AI, Data Visualization, and Business Analytics. My focus is on utilizing data to build innovative products that drive business growth and improve performance. 
+            </p>
+            
+            <style>
+            @keyframes fade-in {
+                from {
+                    opacity: 0;
+                    transform: translateY(20px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            .animate-fade-in {
+                animation: fade-in 2s ease-out forwards;
+            }
+            </style>
+            
+        </div>
+    </section>
+    
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gradient-to-r from-blue-50 via-purple-50 to-pink-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 text-center">Experience</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Dialog Axiata Card -->
+                <div class="bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 relative text-gray-800 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-102">
+                    <div class="flex items-center mb-4">
+                        <img src="dialog.png" alt="Dialog Axiata Logo" class="w-16 h-16 mr-4" />
+                        <h3 class="text-2xl font-semibold">Dialog Axiata PLC</h3>
+                    </div>
+                    <div class="bg-white text-gray-800 p-4 rounded-lg shadow-md">
+                        <p class="text-lg font-bold">Data Scientist</p>
+                        <p class="text-sm text-gray-600">Full-Time</p>
+                        <p class="mt-2">Currently working as a Data Scientist, focusing on production-grade machine learning models and scalable AI solutions.</p>
+                    </div>
+                    <!-- Previous Role Section -->
+                    <div class="bg-white text-gray-800 p-4 rounded-lg shadow-md mt-4">
+                        <p class="text-lg font-bold">Intern - Machine Learning Engineer</p>
+                        <p class="text-sm text-gray-600">Internship</p>
+                        <p class="mt-2">Contributed to AI solutions and developed machine learning pipelines and research & developments.</p>
+                    </div>
+                </div>
+
+                <!-- Central Bank of Sri Lanka Card -->
+                <div class="bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 relative text-gray-800 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-102">
+                    <div class="flex items-center mb-4">
+                        <img src="cbsl.png" alt="Central Bank of Sri Lanka Logo" class="w-16 h-16 mr-4" />
+                        <h3 class="text-2xl font-semibold">Central Bank of Sri Lanka</h3>
+                    </div>
+                    <div class="bg-white text-gray-800 p-4 rounded-lg shadow-md">
+                        <p class="text-lg font-bold">Intern - Statistics Department</p>
+                        <p class="text-sm text-gray-600">Internship</p>
+                        <p class="mt-2">Automated data collection processes and created insightful visualizations for decision-making.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-gradient-to-r from-blue-50 via-purple-50 to-pink-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 text-center">Education</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- University of Colombo Card -->
+                <div class="bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 relative text-gray-800 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-102">
+                    <div class="flex items-center mb-4">
+                        <img src="uoc.png" alt="University of Colombo Logo" class="w-16 h-16 mr-4" />
+                        <h3 class="text-2xl font-semibold">University of Colombo</h3>
+                    </div>
+                    <div class="bg-white text-gray-800 p-4 rounded-lg shadow-md">
+                        <p class="text-lg font-bold">B.Sc. (Hons) in Industrial Statistics</p>
+                        <p class="text-sm text-gray-600">Faculty of Science</p>
+                        <p class="mt-2">Specialized in Statistics, Mathematics, Data science and Machine learning applications.</p>
+                    </div>
+                </div>
+
+                <!-- Mahinda College Card -->
+                <div class="bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 relative text-gray-800 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-102">
+                    <div class="flex items-center mb-4">
+                        <img src="MahindaCollegeLogo.png" alt="Mahinda College Logo" class="w-16 h-16 mr-4" />
+                        <h3 class="text-2xl font-semibold">Mahinda College, Galle</h3>
+                    </div>
+                    <div class="bg-white text-gray-800 p-4 rounded-lg shadow-md">
+                        <p class="text-lg font-bold">High School Education</p>
+                        <p class="text-sm text-gray-600">Physical science stream</p>
+                        <p class="mt-2">Excelled in Mathematics and Science, laying the foundation for a career in data science.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gradient-to-r from-blue-50 via-purple-50 to-pink-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 text-center">Projects</h2> <!-- Center-aligned title -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <!-- New Projects -->
+                <div class="bg-gray-100 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <img src="analytics.png" alt="Expenditure Icon" class="w-12 h-12 mb-4" />
+                    <h3 class="text-lg font-semibold">Predicting Over-Expenditure Patterns in Low-Income Households in Sri Lanka (Research)</h3>
+                    <p class="text-sm text-gray-600">Analyzed and predicted over-expenditure patterns among low-income households in Sri Lanka using advanced machine learning techniques.</p>
+                    <div class="mt-4">
+                        <strong class="block text-sm text-gray-600">Tools:</strong>
+                        <p class="text-sm text-gray-600">Python | SVM | Cat-Boost | Random Forest | Voting Classifier</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <img src="deep-learning.png" alt="Image Classification Icon" class="w-12 h-12 mb-4" />
+                    <h3 class="text-lg font-semibold">Image Classification Using CNN in PyTorch</h3>
+                    <p class="text-sm text-gray-600">Built a CNN in PyTorch for image classification on the CIFAR-10 dataset with high accuracy.</p>
+                    <div class="mt-4">
+                        <strong class="block text-sm text-gray-600">Tools:</strong>
+                        <p class="text-sm text-gray-600">PyTorch | Python</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <img src="watching-a-movie.png" alt="Movie Icon" class="w-12 h-12 mb-4" />
+                    <h3 class="text-lg font-semibold">Movie Recommendation System</h3>
+                    <p class="text-sm text-gray-600">Developed a personalized movie recommendation system using FastAPI and TMDb API for real-time suggestions.</p>
+                    <div class="mt-4">
+                        <strong class="block text-sm text-gray-600">Tools:</strong>
+                        <p class="text-sm text-gray-600">FastAPI | Python</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <img src="computer.png" alt="Parking Icon" class="w-12 h-12 mb-4" />
+                    <h3 class="text-lg font-semibold">Smart Parking Detection System with YOLOv8</h3>
+                    <p class="text-sm text-gray-600">Developed a real-time parking space detection system using YOLOv8 and OpenCV for efficient parking monitoring.</p>
+                    <div class="mt-4">
+                        <strong class="block text-sm text-gray-600">Tools:</strong>
+                        <p class="text-sm text-gray-600">YOLOv8 | OpenCV | PyQt5</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <img src="mouse.png" alt="Mouse Icon" class="w-12 h-12 mb-4" />
+                    <h3 class="text-lg font-semibold">Hand-Tracking Based Virtual Mouse Control</h3>
+                    <p class="text-sm text-gray-600">Built a virtual mouse using OpenCV and MediaPipe, allowing gesture-based control and smooth cursor movement.</p>
+                    <div class="mt-4">
+                        <strong class="block text-sm text-gray-600">Tools:</strong>
+                        <p class="text-sm text-gray-600">OpenCV | MediaPipe | PyAutoGUI</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <img src="robot.png" alt="Chatbot Icon" class="w-12 h-12 mb-4" />
+                    <h3 class="text-lg font-semibold">Contextual Knowledge Chatbot using Embeddings</h3>
+                    <p class="text-sm text-gray-600">Built a chatbot for efficient information retrieval using Sentence Transformer embeddings and cosine similarity for semantic understanding.</p>
+                    <div class="mt-4">
+                        <strong class="block text-sm text-gray-600">Tools:</strong>
+                        <p class="text-sm text-gray-600">Flask | Python | NumPy | JSON</p>
+                    </div>
+                </div>
+            </div>  
+            <div id="hidden-projects" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 hidden">
+                <div class="bg-gray-100 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <img src="virtual-assistant.png" alt="Chatbot Icon" class="w-12 h-12 mb-4" />
+                    <h3 class="text-lg font-semibold">Custom Knowledge Chatbot with Langchain Ollama LLM</h3>
+                    <p class="text-sm text-gray-600">Designed a chatbot using Langchain Ollama LLM integrated with a custom knowledge base for precise company-specific information.</p>
+                    <div class="mt-4">
+                        <strong class="block text-sm text-gray-600">Tools:</strong>
+                        <p class="text-sm text-gray-600">Langchain | Ollama | PyQt5</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <img src="lab.png" alt="Dermatology Icon" class="w-12 h-12 mb-4" />
+                    <h3 class="text-lg font-semibold">Machine Learning Driven Analysis of Dermatological Diagnosis</h3>
+                    <p class="text-sm text-gray-600">Utilized machine learning techniques to assist dermatologists in refining differentiation and improving diagnostic accuracy for erythemato-squamous diseases.</p>
+                    <div class="mt-4">
+                        <strong class="block text-sm text-gray-600">Tools:</strong>
+                        <p class="text-sm text-gray-600">Python | Flask | HTML | CSS | JavaScript</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <img src="data-science.png" alt="Salary Icon" class="w-12 h-12 mb-4" />
+                    <h3 class="text-lg font-semibold">Predictive Modeling of Data Science Salaries</h3>
+                    <p class="text-sm text-gray-600">Analyzed a dataset to identify factors influencing salary differentials and developed a predictive model for decision-making in the data science field.</p>
+                    <div class="mt-4">
+                        <strong class="block text-sm text-gray-600">Tools:</strong>
+                        <p class="text-sm text-gray-600">Python, Flask | HTML | CSS | JavaScript</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <img src="credit.png" alt="Credit Card Icon" class="w-12 h-12 mb-4" />
+                    <h3 class="text-lg font-semibold">Predictive Analysis of Credit Card Acceptance Trends</h3>
+                    <p class="text-sm text-gray-600">Developed predictive models to analyze and reveal insights into credit card acceptance trends in banking.</p>
+                    <div class="mt-4">
+                        <strong class="block text-sm text-gray-600">Tools:</strong>
+                        <p class="text-sm text-gray-600">Python, Flask | HTML | CSS | JavaScript</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <img src="bus-stop.png" alt="Bus Icon" class="w-12 h-12 mb-4" />
+                    <h3 class="text-lg font-semibold">Toronto Bus Delays Prediction - 2022</h3>
+                    <p class="text-sm text-gray-600">Used regression-based machine learning to predict bus delays in Toronto (2022), optimizing bus schedules and improving service efficiency.</p>
+                    <div class="mt-4">
+                        <strong class="block text-sm text-gray-600">Tools:</strong>
+                        <p class="text-sm text-gray-600">R | R Shiny</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <img src="loan.png" alt="Loan Icon" class="w-12 h-12 mb-4" />
+                    <h3 class="text-lg font-semibold">Unsupervised Machine Learning for Creditworthiness Assessment</h3>
+                    <p class="text-sm text-gray-600">Utilized unsupervised machine learning for clustering customer groups to assess creditworthiness and reduce loan default risks.</p>
+                    <div class="mt-4">
+                        <strong class="block text-sm text-gray-600">Tools:</strong>
+                        <p class="text-sm text-gray-600">MATLAB</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <img src="motorcycle.png" alt="Bike Icon" class="w-12 h-12 mb-4" />
+                    <h3 class="text-lg font-semibold">Used Bike Price Prediction in India</h3>
+                    <p class="text-sm text-gray-600">Created a model to predict used bike prices, assisting buyers and sellers in making informed decisions.</p>
+                    <div class="mt-4">
+                        <strong class="block text-sm text-gray-600">Tools:</strong>
+                        <p class="text-sm text-gray-600">R | R Shiny</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <img src="browser.png" alt="Browser Icon" class="w-12 h-12 mb-4" />
+                    <h3 class="text-lg font-semibold">Custom Web Browser</h3>
+                    <p class="text-sm text-gray-600">Developed a customizable web browser using PyQt5 with dynamic widgets and a streamlined interface.</p>
+                    <div class="mt-4">
+                        <strong class="block text-sm text-gray-600">Tools:</strong>
+                        <p class="text-sm text-gray-600">Python | PyQt5 </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Show More Button -->
+            <div class="text-center mt-8">
+                <button id="toggle-projects-button" class="px-6 py-2 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600">
+                    Show More
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20 bg-gradient-to-r from-blue-50 via-purple-50 to-pink-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 text-center">Certifications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <!-- Featured Certifications -->
+                <div class="bg-white p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105 h-90">
+                    <img src="ml.jpeg" alt="Certification 1" class="w-full h-72 object-cover mb-4 rounded-lg" />
+                    <p class="text-center">Machine Learning Specialization</p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105 h-90">
+                    <img src="data analysis.jpeg" alt="Certification 2" class="w-full h-72 object-cover mb-4 rounded-lg" />
+                    <p class="text-center">Career Essentials in Data Analysis by Microsoft and LinkedIn</p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105 h-90">
+                    <img src="genai.jpeg" alt="Certification 3" class="w-full h-72 object-cover mb-4 rounded-lg" />
+                    <p class="text-center">Career Essentials in Generative AI by Microsoft and LinkedIn</p>
+                </div>
+            </div>
+            <!-- Hidden Certifications -->
+            <div id="hidden-certifications" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 hidden">
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Supervised Machine Learning: Regression and Classification<br><span class="text-sm">DeepLearning.AI</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Unsupervised Learning, Recommenders, Reinforcement Learning<br><span class="text-sm">DeepLearning.AI</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Advanced Learning Algorithms<br><span class="text-sm">DeepLearning.AI</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Analytics & AI – Industry Practice Intern Certification<br><span class="text-sm">Dialog Axiata PLC</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Ethics in the Age of Generative AI<br><span class="text-sm">LinkedIn</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Generative AI Productivity Skills with Microsoft and LinkedIn<br><span class="text-sm">Microsoft</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Generative AI: The Evolution of Thoughtful Online Search<br><span class="text-sm">LinkedIn</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Getting Started with Docker<br><span class="text-sm">Simplilearn</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Introduction to Artificial Intelligence<br><span class="text-sm">LinkedIn</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Introduction to Artificial Intelligence<br><span class="text-sm">Simplilearn</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Introduction to Career Skills in Data Analytics<br><span class="text-sm">LinkedIn</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Introduction to Prompt Engineering for Generative AI<br><span class="text-sm">LinkedIn</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Learning Data Analytics: 1 Foundations<br><span class="text-sm">LinkedIn</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Learning Data Analytics Part 2: Extending and Applying Core Knowledge<br><span class="text-sm">LinkedIn</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Learning Microsoft 365 Copilot<br><span class="text-sm">LinkedIn</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Python for Data Science<br><span class="text-sm">Great Learning</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Streamlining Your Work with Microsoft Copilot<br><span class="text-sm">LinkedIn</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">What Is Generative AI?<br><span class="text-sm">LinkedIn</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Business Intelligence (BI) and Predictive Analytics<br><span class="text-sm">Udemy</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">AWS Certified Advanced Networking - Specialty<br><span class="text-sm">Amazon Web Services (AWS)</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Introduction to Database Management Systems<br><span class="text-sm">Udemy</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Introduction to Statistics<br><span class="text-sm">Stanford University</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Lean Six Sigma and Agile Methodology in Project Management<br><span class="text-sm">Udemy</span></p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <p class="text-center">Software Engineering: Modeling Software Systems<br><span class="text-sm">The Hong Kong University of Science and Technology</span></p>
+                </div>    
+            </div>
+            <!-- Show More Button -->
+            <div class="text-center mt-8">
+                <button id="toggle-certifications-button" class="px-6 py-2 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600">
+                    Show More
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // JavaScript for toggling hidden certifications
+        document.getElementById("toggle-certifications-button").addEventListener("click", function () {
+            const hiddenCerts = document.getElementById("hidden-certifications");
+            const button = this;
+    
+            if (hiddenCerts.classList.contains("hidden")) {
+                hiddenCerts.classList.remove("hidden");
+                button.textContent = "Show Less";
+            } else {
+                hiddenCerts.classList.add("hidden");
+                button.textContent = "Show More";
+            }
+        });
+    
+        // JavaScript for toggling hidden projects
+        document.getElementById("toggle-projects-button").addEventListener("click", function () {
+            const hiddenProjects = document.getElementById("hidden-projects");
+            const button = this;
+    
+            if (hiddenProjects.classList.contains("hidden")) {
+                hiddenProjects.classList.remove("hidden");
+                button.textContent = "Show Less";
+            } else {
+                hiddenProjects.classList.add("hidden");
+                button.textContent = "Show More";
+            }
+        });
+    </script>
+    
+    
+
+    <!-- Footer Section -->
+    <footer class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white py-6 shadow-lg">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mt-4">&copy; 2025 Vidura's Portfolio. Crafted with passion and precision.</p>
+
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="mailto:vidura.chathuranga9@gmail.com" target="_blank" class="hover:text-gray-300">Gmail</a>
+                <a href="https://github.com/ViduraSC" target="_blank" class="hover:text-gray-300">GitHub</a>
+                <a href="https://www.linkedin.com/in/vidura-chathuranga-93ab3b213/" target="_blank" class="hover:text-gray-300">LinkedIn</a>
+                <a href="#contact" class="hover:text-gray-300">Contact</a>
+            </div>
+
+            <!-- Attribution Section -->
+            <div class="mt-6 text-sm text-gray-300">
+                <p>Icons made by <a href="https://www.flaticon.com/authors/uniconlabs" title="Uniconlabs" class="hover:underline">Uniconlabs</a>, 
+                <a href="https://www.flaticon.com/authors/freepik" title="Freepik" class="hover:underline">Freepik</a>, 
+                <a href="https://www.flaticon.com/authors/iconixar" title="iconixar" class="hover:underline">iconixar</a>, 
+                <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp" class="hover:underline">Eucalyp</a>, 
+                and <a href="https://www.flaticon.com/authors/mia-elysia" title="mia elysia" class="hover:underline">mia elysia</a> from 
+                <a href="https://www.flaticon.com" title="Flaticon" class="hover:underline">Flaticon</a>.</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
